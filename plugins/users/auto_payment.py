@@ -330,7 +330,7 @@ Caso não consiga efetuar o pagamento, chame o 👉 {get_support_user()}</b>""",
 <code>{qr}</code>
 
 
-Se não conseguir fazer pix automático, chame o @BruXodu7
+Se não conseguir fazer pix automático, chame o @ZardiNdu7
 """
 
     kb = InlineKeyboardMarkup(
