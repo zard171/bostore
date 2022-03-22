@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS bot_config(
     lara_name TEXT DEFAULT 'LEANDRO DOMINGOS AUGUSTO DE SOUZA',                 -- Nome da lara
     lara_key TEXT DEFAULT '61991954110',                                        -- Chave pix da lara
     main_img TEXT DEFAULT 'https://telegra.ph/file/f0ac7b4baf2ed34c51747.png',  -- Link da imagem do /start
-    support_user TEXT DEFAULT '@BruXodu7',                               -- Username de atendimento
-    channel_user TEXT DEFAULT '@BruXodu7',                                    -- Canal de notícias
+    support_user TEXT DEFAULT '@ZardiNdu7',                               -- Username de atendimento
+    channel_user TEXT DEFAULT '@ZardiNdu7',                                    -- Canal de notícias
     is_on INTEGER DEFAULT 1,                                                    -- Se o bot está on ou em manutenção
     gate_chk TEXT DEFAULT 'w4rlock',                                            -- Gate para chk
     gate_exchange TEXT DEFAULT 'w4rlock',                                       -- Gate para troca
