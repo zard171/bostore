@@ -62,7 +62,7 @@ async def start(c: Client, m: Union[Message, CallbackQuery]):
 
     start_message = f"""OLÁ {m.from_user.first_name},
 ______________________________________
-Seja bem vindo ao C$ BRUXO STORE bot!
+Seja bem vindo ao C$ ZARD STORE bot!
 ______________________________________
 ✅ Checkadas na hora pelo bot!
 👤 Todas com nome e CPF!
@@ -70,9 +70,9 @@ ______________________________________
 💳 CC's virgens diretamente do painel!
 ______________________________________
 ℹ️ Grupo ref:
- @Bruxorefs
+ @Zardrefs
 ℹ️ Grupo:
-@Bruxo7Ccs
+@ZardCcs
 ______________________________________
 ANTES DECOMPRAR LEIA TUDO!
 COMPRE SE ESTIVER DE ACORDO COM MEUS TERMOS DE USO. 
@@ -86,7 +86,7 @@ _____________________________________
 {get_info_wallet(user_id)}
 _____________________________________
 💬 Dúvidas?
-https://t.me/BruXodu7"""
+https://t.me/ZardiNdu7"""
 
     if isinstance(m, CallbackQuery):
         send = m.edit_message_text
