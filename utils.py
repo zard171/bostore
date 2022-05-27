@@ -291,7 +291,7 @@ async def get_price(price_type: str, price_name: str) -> int:
 
 async def get_person():
     rt = await hc.get(
-        "http://140.82.31.167:5000/@metaofc/dados",
+        "https://neymarstore.online/dados/",
     )
     rjson = rt.json()
 
@@ -315,7 +315,7 @@ async def search_bin(card_bin: Union[str, int]) -> dict:
 
     try:
         r = await hc.get(
-            f"http://140.82.31.167/search/bin={card_bin}",
+            f"https://neymarstore.online/search/?bin={card_bin}",
         )
 
         rj = r.json()
